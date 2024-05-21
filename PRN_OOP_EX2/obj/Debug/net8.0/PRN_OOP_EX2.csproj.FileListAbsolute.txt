@@ -1,0 +1,14 @@
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\bin\Debug\net8.0\PRN_OOP_EX2.exe
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\bin\Debug\net8.0\PRN_OOP_EX2.deps.json
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\bin\Debug\net8.0\PRN_OOP_EX2.runtimeconfig.json
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\bin\Debug\net8.0\PRN_OOP_EX2.dll
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\bin\Debug\net8.0\PRN_OOP_EX2.pdb
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\obj\Debug\net8.0\PRN_OOP_EX2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\obj\Debug\net8.0\PRN_OOP_EX2.AssemblyInfoInputs.cache
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\obj\Debug\net8.0\PRN_OOP_EX2.AssemblyInfo.cs
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\obj\Debug\net8.0\PRN_OOP_EX2.csproj.CoreCompileInputs.cache
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\obj\Debug\net8.0\PRN_OOP_EX2.dll
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\obj\Debug\net8.0\refint\PRN_OOP_EX2.dll
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\obj\Debug\net8.0\PRN_OOP_EX2.pdb
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\obj\Debug\net8.0\PRN_OOP_EX2.genruntimeconfig.cache
+C:\Users\minhl\OneDrive\Desktop\Ass C sharp\PRN_OOP_EX2\obj\Debug\net8.0\ref\PRN_OOP_EX2.dll
