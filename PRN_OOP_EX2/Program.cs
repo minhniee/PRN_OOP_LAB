@@ -50,11 +50,6 @@
             }
             Console.ReadLine();
 
-
-
-
-            Console.ReadLine(); 
-
         }
 
         public static void HightSalaryMinBalance(List<Person> list)
@@ -70,13 +65,21 @@
         {
             Console.Write("Enter Employee Name: ");
             var name = Console.ReadLine();
+            bool flag= false;
 
             foreach (var employee in employees)
             {
                 if (employee.Name.ToLower() == name.ToLower())
                 {
                     employee.Display();
+                    //break;
+                    flag = true;
                 }
+            }
+            if (flag)
+            {
+                Console.WriteLine("Not Found");
+
             }
         }
 

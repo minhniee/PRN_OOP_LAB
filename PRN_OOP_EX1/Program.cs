@@ -6,6 +6,7 @@ namespace PRN_OOP_EX1
     {
         static void Main(string[] args)
         {
+            // add employeees into list 
             List<Employee> employees = new List<Employee>();
             employees.Add(new PartTimeEmplyee(25, "John",10));
             employees.Add(new PartTimeEmplyee(18, "Kim",4));
@@ -65,6 +66,7 @@ namespace PRN_OOP_EX1
 
         public static void HighestTimeWorking(List<Employee> employees)
         {
+            // find value 
             var highestFullTime = employees.OfType<FullTimeEmployee>().OrderByDescending(e => e.PaymentPerHour).FirstOrDefault();
             var highestPartTime = employees.OfType<PartTimeEmplyee>().OrderByDescending(e => e.PaymentPerHour).FirstOrDefault();
             Console.WriteLine(highestFullTime);
@@ -80,8 +82,10 @@ namespace PRN_OOP_EX1
                 if (employee.Name.ToLower() == name.ToLower())
                 {
                     Console.WriteLine(employee.ToString());
+                    break;
                 }
             }
+            Console.WriteLine("Not Found");
         }
 
         public static void AddEmployee(List<Employee> employees)
@@ -89,7 +93,8 @@ namespace PRN_OOP_EX1
             string type;
             Console.Write("Enter employee type (full/part): ");
             type = Console.ReadLine();
-
+            
+            //  handle chosse type of employee
             while (type != "full" && type != "part")
             {
                 Console.Write("Enter employee type (full/part): ");
@@ -114,7 +119,7 @@ namespace PRN_OOP_EX1
                 Console.WriteLine("Invalid input, please try again.");
                 return;
             }
-
+            // add employee
             if (type.Equals("full", StringComparison.OrdinalIgnoreCase))
             {
                 employees.Add(new FullTimeEmployee( paymentPerHour, name));
@@ -127,7 +132,7 @@ namespace PRN_OOP_EX1
             {
                 Console.WriteLine("Invalid employee type.");
             }
-            Console.WriteLine("ssf");
+            Console.WriteLine("Add ssf");
         }
 
 
